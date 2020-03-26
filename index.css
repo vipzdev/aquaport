@@ -1,0 +1,23 @@
+/* All items */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Montserrat;
+    background-color: white;
+
+}
+
+/* Scrollbar */
+
+::-webkit-scrollbar
+{
+    width: 12px;
+}
+::-webkit-scrollbar-thumb
+{
+    background: linear-gradient(transparent, #00aeff);
+    border-radius: 6px;
+}
+
