@@ -1,14 +1,3 @@
-/* All items */
-
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    box-sizing: border-box;
-    font-family: Montserrat;
-
-}
-
 /* Scrollbar */
 
 ::-webkit-scrollbar
@@ -22,30 +11,4 @@
 }
 
 /* Navbar */
-
-.container{
-    width: 90%;
-    margin: 0 auto;
-
-}
-
-.navbar{
-    width: 100%;
-    overflow: hidden;
-    height: 70px;
-    line-height: 70px;
-    background: black;
-}
-
-.logo{
-    width: 250px;
-    height: 250px;
-    position: absolute;
-    top: 3%;
-    left: 15%;
-    transform: translate(-50%, -50%);
-
-}
-
-/* ul */
 
