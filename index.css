@@ -1,0 +1,8 @@
+body, html{
+    background-color: black;
+    font-family: "Montserrat";
+}
+
+.animate-bottom h2, p{
+    color: white;
+}
