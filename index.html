@@ -1,92 +1,72 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>aquadev - Home</title>
+    <title>aquadev | Home</title>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="X-UA-Compatible" content="IE=8">
+
     <meta name="description" content="aquadev's programming & designing portfolio.">
     <meta name="author" content="aquadev">
-    <meta name="keywords" content="Programming Portfolio, Scripting Portfolio, Designing Portfolio">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" href="/favicon.jpg" type="image/png">
-    <link rel="shortct icon" href="/favicon.jpg" type="image/png">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
+
+    <meta name="msapplication-TileColor" content="#032229">
+    <meta name="theme-color" content="#032229">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon-appletouch.png" type="image/png">
+    <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
+    <link rel="shortct icon" href="favicon-16.png" sizes="16x16" type="image/png">
+
+
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
+
+
     <link rel="stylesheet" type="text/css" href="index.css">
-<style>
-/* Center the loader */
-#loader {
-  position: absolute;
-  left: 51%;
-  top: 50%;
-  z-index: 1;
-  width: 150px;
-  height: 150px;
-  margin: -75px 0 0 -75px;
-  border: 16px solid #0e4792;
-  border-radius: 50%;
-  border-top: 16px solid #3498db;
-  width: 75px;
-  height: 75px;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-}
-
-@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
-
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-
-/* Add animation to "page content" */
-.animate-bottom {
-  position: relative;
-  -webkit-animation-name: animatebottom;
-  -webkit-animation-duration: 1s;
-  animation-name: animatebottom;
-  animation-duration: 1s
-}
-
-@-webkit-keyframes animatebottom {
-  from { bottom:-100px; opacity:0 }
-  to { bottom:0px; opacity:1 }
-}
-
-@keyframes animatebottom {
-  from{ bottom:-100px; opacity:0 }
-  to{ bottom:0; opacity:1 }
-}
-
-#myDiv {
-  display: none;
-  text-align: center;
-}
-</style>
 </head>
-<body onload="myFunction()" style="margin:0;">
+<body>
 
-<div id="loader"></div>
+<div class="header-text">
+  <h1>The name's <span>Aqua.</span></h1>
+  <p>Programmer, scripter & designer</p>
 
-<div style="display:none;" id="myDiv" class="animate-bottom">
-  <h2>AquaDev's Portfolio</h2>
-  <p>Currently under development, come back someother time.</p>
+  <button class="button-top" onclick="window.location.href='index.html'"><span>Learn more</span></button>
+</div>
+
+<div class="navs">
+
+<ul>
+  <li>
+    <a href="index.html">Home</a>
+    <a href="index.html">About Me</a>
+    <a href="projects.html">Projects</a>
+    <a href="contactme.html">Contact Me</a>
+  </li>
+</ul>
+
+<div class="middle-text">
+  <h2>About Me</h2>
+  <p><span>Hey, I'm Aqua! Real name 'Darian Lawrence', I'm a 16 year old programmer, scripter & designer from Blackwood, Wales.<span></p>
+  </div>
+
+<div class="middle-other">
+    <p>I specialize in Python & JavaScript development, alongside Web development. I have over 5 years worth of experience in programming.</p>
+  </div>
+
+<div class="pic-of-me">
+  <img src="pic-of-me.png" alt="Pic-of-me" type="image">
+
+<div class="want-to-know-more">
+  <h2>Want to know more about what I do? </h2>
+
+</div>
+
+<div class="middle-rectangle">
+
 </div>
 
 
-<script>
-var myVar;
 
-function myFunction() {
-  myVar = setTimeout(showPage, 3000);
-}
-
-function showPage() {
-  document.getElementById("loader").style.display = "none";
-  document.getElementById("myDiv").style.display = "block";
-}
-</script>
 
 </body>
 </html>
