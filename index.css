@@ -251,6 +251,8 @@ body, html{
 
 
 .middle-text h2{
+  z-index: 100;
+  position: fixed;
   font-size: 25px;
   color: white;
   position: absolute;
@@ -260,6 +262,8 @@ body, html{
 }
 
 .middle-text p{
+  z-index: 100;
+  position: fixed;
   color: #7AFFFD;
   position: absolute;
   top: 62%;
@@ -269,6 +273,8 @@ body, html{
 }
 
 .middle-other p{
+  z-index: 100;
+  position: fixed;
   color: #7AFFFD;
   position: absolute;
   top: 66%;
@@ -278,30 +284,49 @@ body, html{
 }
 
 .pic-of-me img{
-  height: 155px;
-  width: 155px;
+  z-index: 100;
+  position: fixed;
+  height: 250px;
+  width: 250px;
   position: absolute;
-  top: 78%;
-  left: 76%;
+  top: 70%;
+  left: 85%;
   transform: translate(-50%, -50%);
 
 }
 
-.button-middle{
-  background-color: #7AFFFD; /* Blue */
+.button-middle {
+  background-color: #7AFFFD; /* Green */
   border: none;
-  color: white;
+  color: #032229;
   padding: 15px 32px;
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 22px;
+  font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
   position: absolute;
-  top: 50%;
-  left: 49%;
+  top: 76%;
+  left: 15%;
   transform: translate(-50%, -50%);
-
 }
 
+.button-middle {
+  transition-duration: 0.5s;
+}
+
+.button-middle:hover {
+  background-color: rgb(50, 190, 188); /* Green */
+}
+
+
+.rectangle {
+  height: 300px;
+  width: 2000px;
+  position: fixed;
+  background-color: #106D74;
+  top: 70%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
