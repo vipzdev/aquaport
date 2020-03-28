@@ -1,8 +1,131 @@
 body, html{
-    background-color: black;
-    font-family: "Montserrat";
+    background-color: #032229;
+    font-family: "Montserrat", "sans-serif";
 }
 
-.animate-bottom h2, p{
-    color: white;
+.header-text{
+  color: white;
+  transition-duration: 0.5s;
+  font-size: 40px;
+}
+
+.header-text h1{
+  position: absolute;
+  top: 20%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
+
+.header-text h1 span{
+  color: #7AFFFD;
+}
+
+.header-text p{
+  color: #7AFFFD;
+  position: absolute;
+  top: 29%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
+
+.button-top {
+  background-color: #7AFFFD; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 42%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+}
+
+.button-top {
+  transition-duration: 0.5s;
+}
+
+.button-top:hover {
+  background-color: #0E8E92; /* Green */
+  color: white;
+}
+
+
+.header-text span{
+  color: #032229;
+}
+
+
+.middle-text h2{
+  font-size: 30px;
+  color: white;
+  position: fixed;
+  z-index: 1;
+  top: 55%;
+  left: 16%;
+  transform: translate(-50%, -50%);
+}
+
+.middle-text p{
+  color: #7AFFFD;
+  position: fixed;
+  z-index: 1;
+  top: 62%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+.middle-other p{
+  color: #7AFFFD;
+  position: fixed;
+  z-index: 1;
+  top: 66%;
+  left: 41%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+
+.pic-of-me img{
+  height: 210px;
+  width: 210px;
+  position: fixed;
+  z-index: 1;
+  top: 79%;
+  left: 76%;
+  transform: translate(-50%, -50%);
+
+}
+
+.button-middle{
+  background-color: #7AFFFD; /* Blue */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 4px 2px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 49%;
+  transform: translate(-50%, -50%);
+
+}
+
+
+.middle-rectangle{
+  height: 385px;
+  width: 1960px;
+  background-color: #106D74;
+  position: absolute;
+  top: 72%;
+  left: 49%;
+  transform: translate(-50%, -50%);
 }
