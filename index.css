@@ -268,10 +268,10 @@ body, html{
 .middle-text h2{
   z-index: 100;
   position: fixed;
-  font-size: 25px;
+  font-size: 27px;
   color: white;
   position: absolute;
-  top: 57%;
+  top: 60%;
   left: 15%;
   transform: translate(-50%, -50%);
 }
@@ -281,7 +281,7 @@ body, html{
   position: fixed;
   color: #7AFFFD;
   position: absolute;
-  top: 62%;
+  top: 65%;
   left: 40%;
   transform: translate(-50%, -50%);
   font-size: 18px;
@@ -292,7 +292,7 @@ body, html{
   position: fixed;
   color: #7AFFFD;
   position: absolute;
-  top: 66%;
+  top: 70%;
   left: 41%;
   transform: translate(-50%, -50%);
   font-size: 18px;
@@ -301,43 +301,18 @@ body, html{
 .pic-of-me img{
   z-index: 100;
   position: fixed;
-  height: 250px;
-  width: 250px;
+  height: 234px;
+  width: 234px;
   position: absolute;
   top: 70%;
-  left: 85%;
+  left: 84%;
   transform: translate(-50%, -50%);
 
-}
-
-.button-middle {
-  background-color: #7AFFFD; /* Green */
-  border: none;
-  color: #032229;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  margin: 4px 2px;
-  cursor: pointer;
-  position: absolute;
-  top: 76%;
-  left: 15%;
-  transform: translate(-50%, -50%);
-}
-
-.button-middle {
-  transition-duration: 0.5s;
-}
-
-.button-middle:hover {
-  background-color: rgb(50, 190, 188); /* Green */
 }
 
 
 .rectangle {
-  height: 300px;
+  height: 280px;
   width: 2000px;
   position: fixed;
   background-color: #106D74;
@@ -346,3 +321,44 @@ body, html{
   transform: translate(-50%, -50%);
 }
 
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  height: 155px;
+  width: 100%;
+  background-color: #032229;
+  color: white;
+  text-align: center;
+}
+
+.footer img{
+  z-index: 100;
+  position: fixed;
+  height: 160px;
+  width: 160px;
+  position: absolute;
+  top: 50%;
+  left: 7%;
+  transform: translate(-50%, -50%);
+}
+
+.footer-icons{
+  position: absolute;
+  top: 54%;
+  left: 93%;
+  transform: translate(-50%, -50%);
+}
+
+.footer-icons a:link, a:visited {
+  background-color: #032229;
+  color: #7AFFFD;
+  padding: 10px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.footer-icons a:hover{
+  color: white;
+}
