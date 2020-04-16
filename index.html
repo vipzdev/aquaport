@@ -1,94 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Home - AquaDev</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta http-equiv="X-UA-Compatible" content="IE=8">
+<html>
+<style>
+body, html {
+  height: 100%;
+  margin: 0;
+}
 
-    <meta name="description" content="AquaDev's Programming & Designing portfolio.">
-    <meta name="author" content="aquadev">
+.bgimg {
+  background-image: url('/w3images/forestbridge.jpg');
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
 
-    <meta name="msapplication-TileColor" content="#e78a9c">
-    <meta name="theme-color" content="#e78a9c">
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
 
-    <link rel="apple-touch-icon" sizes="180x180" href="favicon-appletouch.png" type="image/png">
-    <link rel="icon" href="favicon-32.png" sizes="32x32" type="image/png">
-    <link rel="shortct icon" href="favicon-16.png" sizes="16x16" type="image/png">
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
 
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
 
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:600&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:700&display=swap" rel="stylesheet">
-
-
-    <link rel="stylesheet" type="text/css" href="index.css">
-
-    <script src="https://kit.fontawesome.com/4fab10ec55.js" crossorigin="anonymous"></script>
-</head>
+hr {
+  margin: auto;
+  width: 40%;
+}
+</style>
 <body>
 
-  <script src="responsive.js"></script>
-
-  <div class="container">
-    <div class="logo">
-        <a href="index.html"><img src="logo.png" alt="logo"></a>
-    </div>
-<div class="navbar">
-
-<div class="icon-bar" onclick="Show()">
-    <i></i>
-    <i></i>
-    <i></i>
-</div>
-
-<ul id="nav-lists">
-    <li class="close"><span onclick="Hide()">×</span></li>
-    <li><a href="index.html">Home</a></li>
-    <li><a href="projects.html">Projects</a></li>
-    <li><a href="contactme.html">Contact Me</a></li>
-</ul>
-
-<div class="header-text">
-  <h1 >The name's <span>Aqua.</span></h1>
-  <p>Programmer, scripter & designer</p>
-
-  <button class="button-top" onclick="window.location.href='projects.html'"><span>Learn more</span></button>
-</div>
-
-
-<div class="middle-text">
-  <h2>About Me</h2>
-  <p><span>Hey, I'm Aqua! Real name 'Darian Lawrence', I'm a 16 year old programmer, scripter & designer from Blackwood, Wales.<span></p>
+<div class="bgimg">
+  <div class="topleft">
+    <p>Logo</p>
   </div>
-
-<div class="middle-other">
-    <p>I specialize in Python & JavaScript development, alongside Web development. I have over 5 years worth of experience in programming.</p>
+  <div class="middle">
+    <h1>COMING SOON</h1>
+    <hr>
+    <p>35 days left</p>
   </div>
-
-<div class="pic-of-me">
-  <img src="pic-of-me.png" alt="pic of me" type="image">
-</div>
-
-<div class="footer">
-  <div class="logo_container">
-    <img src="logo.png" alt="footer logo">
-    <div class="footer-icons">
-      <a href="https://www.youtube.com/channel/UCD2SAFd63vYeNRXZHyuwdxw?" target="_blank"><i class="fab fa-youtube fa-2x"></i></a>
-      <a href="https://www.twitter.com/aquadevvv" target="_blank"><i class="fab fa-twitter fa-2x"></i></a>
-      <a href="https://www.instagram.com/aquadevvv" target="_blank"><i class="fab fa-instagram fa-2x"></i></a>
-      <a href="https://github.com/vipzdev" target="_blank"><i class="fab fa-github fa-2x"></i></a>
-
+  <div class="bottomleft">
+    <p>Some text</p>
   </div>
-
 </div>
-
-<div class="rectangle"></div>
-
-
-</div>
-
-
 
 </body>
 </html>
