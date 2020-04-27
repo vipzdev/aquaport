@@ -35,6 +35,15 @@ span{
   color: #7d96fc;
 }
 
+.icons a:link{
+  color: white;
+}
+
+/* selected link */
+a:active {
+  color: white;
+}
+
 a:visited {
   color: white;
 }
