@@ -40,11 +40,11 @@ span{
 }
 
 /* selected link */
-a:active {
+.icons a:active {
   color: white;
 }
 
-a:visited {
+.icons a:visited {
   color: white;
 }
 
