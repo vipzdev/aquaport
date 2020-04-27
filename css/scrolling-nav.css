@@ -17,6 +17,13 @@ span{
 
 .container h1{
   font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+.container h2{
+  font-family: "Montserrat", sans-serif;
+  font-weight: normal;
 }
 
 .icons{
