@@ -31,14 +31,23 @@ span{
   color: white;
 }
 
-.icons a:hover{
-  color: #7d96fc;
+.icons a:visited{
+  color: white;
 }
 
 .icons a:link{
   color: white;
 }
 
+
+.icons a:hover{
+  color: #7d96fc;
+}
+
 .imageofme img{
     border-radius: 50%;
+}
+
+.footer p{
+  font-family: "Montserrat", sans-serif;
 }
