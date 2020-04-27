@@ -39,15 +39,6 @@ span{
   color: white;
 }
 
-/* selected link */
-.icons a:active {
-  color: white;
-}
-
-.icons a:visited {
-  color: white;
-}
-
 .imageofme img{
     border-radius: 50%;
 }
