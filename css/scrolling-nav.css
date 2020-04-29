@@ -3,7 +3,7 @@
  * Copyright 2013-2019 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
  */
-header {
+ header {
   padding: 156px 0 100px;
 }
 
@@ -15,11 +15,12 @@ span{
   font-weight: bold;
 }
 
-.container h1{
-  font-size: 40px;
+.top-text h1{
+  font-size: 50px;
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
 }
+
 
 .container h2{
   font-family: "Montserrat", sans-serif;
@@ -27,8 +28,9 @@ span{
 }
 
 .icons{
-  font-size: 25px;
+  font-size: 19px;
   color: white;
+  text-align: center;
 }
 
 .icons a:visited{
