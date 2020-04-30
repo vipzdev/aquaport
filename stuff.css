@@ -25,7 +25,7 @@ body{ min-height:1500px;
       text-align: center;
       overflow: hidden;
       position: relative;
-      height: 400px
+      height: 375px;
     }
     .hls_sol li img {
       height: 100%;
